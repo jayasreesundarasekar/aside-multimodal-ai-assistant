@@ -10,4 +10,4 @@ COPY . .
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["python", "-u", "server.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "server:app"]
