@@ -1,4 +1,5 @@
 # Aside — a multimodal AI assistant
+https://aside.up.railway.app/
 
 A chat app powered entirely by the OpenAI API: talk to it by text or voice,
 translate speech or text between languages, hand it a PDF/DOCX to summarize
